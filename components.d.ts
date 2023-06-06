@@ -9,14 +9,19 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ElSwitch: typeof import('element-plus/es')['ElSwitch']
-    IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
-    IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
-    IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
-    IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
-    IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
+    BgBox: typeof import('./src/components/bg-box.vue')['default']
+    ElBacktop: typeof import('element-plus/es')['ElBacktop']
+    ElCollapse: typeof import('element-plus/es')['ElCollapse']
+    ElCollapseItem: typeof import('element-plus/es')['ElCollapseItem']
+    ElDropdown: typeof import('element-plus/es')['ElDropdown']
+    ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
+    ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElSelectV2: typeof import('element-plus/es')['ElSelectV2']
+    Footer: typeof import('./src/components/footer.vue')['default']
     Nav: typeof import('./src/components/nav.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Social: typeof import('./src/components/social.vue')['default']
   }
 }

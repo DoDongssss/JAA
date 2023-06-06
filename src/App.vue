@@ -4,20 +4,21 @@ import { RouterLink, RouterView } from 'vue-router'
 import index from '../src/views/index.vue'
 import about from '../src/views/about.vue'
 import skills from '../src/views/skills.vue'
-import experience from '../src/views/experience.vue'
+import project from '../src/views/project.vue'
 import contact from '../src/views/contact.vue'
+import foot from '../src/components/footer.vue'
 
 export default defineComponent({
     components: {
       index,
       about,
       skills,
-      experience,
-      contact
+      project,
+      contact,
+      foot
+      
     },
     setup () {
-        
-
         return {}
     }
 })
@@ -27,10 +28,38 @@ export default defineComponent({
   <index/>
   <about/>
   <skills/>
-  <experience/>
+  <project/>
   <contact/>
+  <foot /> 
+
+  <el-backtop :bottom="50">
+    <div class="abs-center flex-col gap-[1px] p-4">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-[20px] fill-[#00ADB5]">
+        <path d="M96 256H128V512H0V352H32V320H64V288H96V256zM512 352V512H384V256H416V288H448V320H480V352H512zM320 64H352V448H320V416H192V448H160V64H192V32H224V0H288V32H320V64zM288 128H224V192H288V128z"/>
+      </svg>
+      <!-- <span class="font-bold text-[7px] color-222831">TOP</span> -->
+    </div>
+  </el-backtop>
 </template>
 
 <style scoped>
+  .el-backtop{
+    height: 50px!important;
+    width: 50px!important;
+    padding: 5px;
+    border: 3px solid #00ADB5;
+    bottom: 50px;
+  }
+  .el-backtop svg{
+    animation: racket-animation 1.5s linear infinite;
+  }
 
+  @keyframes racket-animation {
+    0%,100%{
+      transform: translateY(5px);
+    }
+    50%{
+      transform: translateY(-5px);
+    }
+  }
 </style>
