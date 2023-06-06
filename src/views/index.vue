@@ -52,7 +52,7 @@
             </div>
             <div class="abs-center h-full w-full lg:w-[50%] mt-10 lg:mt-0">
                 <div class="h-[300px] w-[300px] md:h-[400px] md:w-[400px] img-wrapper z-20">
-                    <img src="../../images/ako.jpg" alt="" class="h-full w-full">
+                    <img src="../images/ako.jpg" alt="" class="h-full w-full">
                 </div>
             </div>
         </main>
