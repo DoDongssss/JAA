@@ -10,31 +10,31 @@
         </div>
         <div class="flex flex-wrap justify-center gap-4 mt-4" data-aos="fade-right">
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item   ">
-                <img src="../../images/html.png" alt="" width="90px">
+                <img src="../../public/images/html.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">HTML</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/css.png" alt="" width="90px">
+                <img src="../../public/images/css.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">CSS</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/js.png" alt="" width="90px">
+                <img src="../../public/images/js.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">JS</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/vuejs.png" alt="" width="90px">
+                <img src="../../public/images/vuejs.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">VUEJS</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/wordpress.png" alt="" width="90px">
+                <img src="../../public/images/wordpress.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">WORDPRESS</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/git.png" alt="" width="90px">
+                <img src="../../public/images/git.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">GIT</span>
             </div>
             <!-- <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/gitlab.png" alt="" width="90px">
+                <img src="../../public/images/gitlab.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">GITLAB</span>
             </div> -->
         </div>
@@ -48,27 +48,27 @@
         </div>
         <div class="flex flex-wrap justify-center gap-4 mt-4" data-aos="fade-left">
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/php.png" alt="" width="90px">
+                <img src="../../public/images/php.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">PHP</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/laravel.png" alt="" width="90px">
+                <img src="../../public/images/laravel.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">LARAVEL</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/mysql.png" alt="" width="90px">
+                <img src="../../public/images/mysql.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">MYSQL</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/java.png" alt="" width="90px">
+                <img src="../../public/images/java.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">JAVA</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/c++.png" alt="" width="90px">
+                <img src="../../public/images/c++.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">C++</span>
             </div>
             <div class="flex flex-col items-center justify-between gap-2 p-4 px-8 bg-c-00ADB5-trans rounded-xl skill-item">
-                <img src="../../images/flutter.png" alt="" width="90px">
+                <img src="../../public/images/flutter.png" alt="" width="90px">
                 <span class="font-bold color-EEEEEE tracking-wide text-[.8em]">FLUTTER</span>
             </div>
         </div>

@@ -10,7 +10,7 @@
                     <h5 class="font-bold text-[1em]">Notre Dame of Marbel University</h5>
                     <span class="text-[.6em]">( NDMU Complex, NDMU Basketball Court (outdoor), Rafael Alunan Ave, Poblacion, Koronadal City, 9506 South Cotabato )</span>
                     <span class="bg-c-393E46 w-fit px-2 mt-2 rounded skew-y-2">2019 - 2023</span>
-                    <img src="../../images/college.jpg" alt="" class="px-2 py-4 object-cover rounded-[30px] educ-img">
+                    <img src="../../public/images/college.jpg" alt="" class="px-2 py-4 object-cover rounded-[30px] educ-img">
                 </div>
             </div>
             <div class="flex h-[400px] min-w-[300px] w-[calc(100%/4-.5rem)] rounded-xl bg-c-00ADB5-trans-med py-10 px-5" data-aos="fade-up-right">
@@ -21,7 +21,7 @@
                     <h5 class="font-bold text-[1em]">STI College Koronadal</h5>
                     <span class="text-[.6em]">( Brgy Santa Lucia St, Poblacion, Koronadal City, 9506 South Cotabato )</span>
                     <span class="bg-c-393E46 w-fit px-2 mt-2 rounded skew-y-2">2017 - 2019</span>
-                    <img src="../../images/shs.jpg" alt="" class="px-2 py-4 object-cover rounded-[30px] educ-img">
+                    <img src="../../public/images/shs.jpg" alt="" class="px-2 py-4 object-cover rounded-[30px] educ-img">
                 </div>
             </div>
             <div class="flex h-[400px] min-w-[300px] w-[calc(100%/4-.5rem)] rounded-xl bg-c-00ADB5-trans-med py-10 px-5" data-aos="fade-up-left">
@@ -32,7 +32,7 @@
                     <h5 class="font-bold text-[1em]">Tampakan National High School</h5>
                     <span class="text-[.6em]">( CWXG+36R, Poblacion, Tampakan, 9507 South Cotabato )</span>
                     <span class="bg-c-393E46 w-fit px-2 mt-2 rounded skew-y-2">2013 - 2017</span>
-                    <img src="../../images/hs.jpg" alt="" class="px-2 py-4 object-cover rounded-[30px] mt-[10px] educ-img">
+                    <img src="../../public/images/hs.jpg" alt="" class="px-2 py-4 object-cover rounded-[30px] mt-[10px] educ-img">
                 </div>
             </div>
             <div class="flex h-[400px] min-w-[300px] w-[calc(100%/4-.5rem)] rounded-xl bg-c-00ADB5-trans-med py-10 px-5" data-aos="fade-left">
@@ -43,7 +43,7 @@
                     <h5 class="font-bold text-[1em]">Lanton Elementary School</h5>
                     <span class="text-[.6em]">( PUROK-5 LANTON, E Salamanca Ave, General Santos City, 9500 South Cotabato )</span>
                     <span class="bg-c-393E46 w-fit px-2 mt-2 rounded skew-y-2">2007 - 2013</span>
-                    <img src="../../images/noimage.png" alt="" class="px-2 py-4 object-cover rounded-[30px] educ-img">
+                    <img src="../../public/images/noimage.png" alt="" class="px-2 py-4 object-cover rounded-[30px] educ-img">
                 </div>
             </div>
         </div>
