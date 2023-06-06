@@ -1,0 +1,266 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #d9d9d9;
+  --vt-c-white-mute: #f2f2f2;
+  --vt-c-white-dark: #a6a6a6;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --vt-c-background-dark: rgba(0, 0, 0, 1);
+  --vt-c-background-light: rgba(255, 255, 255, 1);
+
+  --p-222831: rgb(34, 40, 49); 
+  --p-393E46: rgb(57, 62, 70);
+  --p-007980: rgb(0, 121, 128);
+  --p-00ADB5: rgb(0, 173, 181);
+  --p-EEEEEE: rgb(238, 238, 238);
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  list-style-type: none;
+}
+*{
+    /* outline: red dotted 1px; */
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background-color: var(--p-222831); 
+  /* background-image: url('../src/assets/images/nexus-bg.jpg'); */
+  /* transition: color 0.5s, background-color 0.5s; */
+  line-height: 1.6;
+  /* font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 1rem;
+}
+body::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #393E46;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#007980),
+									   to(#00ADB5),
+									   color-stop(.6,#EEEEEE))
+}
+section{
+  min-height: calc(100vh - 2rem);
+  height: calc(100vh - 2rem);
+  border-radius: 5px;
+  margin: 1rem 0;
+}   
+section.first{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  background-color: var(--p-EEEEEE);
+}
+section.second{
+  background-color: red;
+}
+section.skills{
+  min-height: auto;
+  height: auto;
+}
+section.fourth{
+  background-color: orange;
+}
+section.fifth{
+  background-color: violet;
+  margin-bottom: 0;
+}
+.font-rowdie{
+  font-family: 'Rowdies', cursive;
+}
+/* background color */
+.bg-c-222831{
+  background-color: var(--p-222831);
+}
+.bg-c-393E46{
+  background-color: var(--p-393E46);
+}
+.bg-c-00ADB5{
+  background-color: var(--p-00ADB5)!important;
+}
+.bg-c-EEEEEE{
+  background-color: var(--p-EEEEEE);
+}
+
+.bg-c-00ADB5-o{
+  background-color: rgba(0, 173, 181, .2)
+}
+
+/* color */
+.color-222831{
+  color: var(--p-222831);
+}
+.color-393E46{
+  color: var(--p-393E46);
+}
+.color-00ADB5{
+  color: var(--p-00ADB5);
+}
+.color-EEEEEE{
+  color: var(--p-EEEEEE);
+}
+
+/* navigation */
+nav{
+  /* border-top: 1px solid var(--p-222831);
+  border-left: 1px solid var(--p-222831); */
+  padding: 5px 8px;
+  border-radius: 0 20px 0  20px;
+  /* background: rgb(57,62,70);
+  background: linear-gradient(90deg, rgba(57,62,70,1) 0%, rgba(217,217,217,0.17699579831932777) 100%); */
+  /* box-shadow: 35px 34px 67px -26px rgba(238,238,238,0.43) inset;
+-webkit-box-shadow: 35px 34px 67px -26px rgba(238,238,238,0.43) inset;
+-moz-box-shadow: 35px 34px 67px -26px rgba(238,238,238,0.43) inset; */
+}
+nav svg{
+  width: 22px;
+  /* fill: var(--p-222831); */
+  color: var(--p-222831);;
+  margin-right: 7.5px;
+}
+nav .nav-item:hover svg{
+  animation: bounce 1s infinite;
+  fill: var(--p-393E46);
+}
+nav .nav-item.active svg{
+  animation: bounce 1s infinite;
+  color: var(--p-00ADB5);
+  fill: transparent;
+  /* fill: var(--p-007980); */
+}   
+nav .nav-item{
+  overflow: hidden;
+} 
+nav .nav-item a span{
+  width: auto;
+  /* max-width: 0; */
+}
+nav .nav-item.active span{
+  color: var(--p-00ADB5);
+  max-width: 110px;
+  animation: slideRight .5s linear;
+}
+nav .nav-item span{
+  color: var(--p-393E46);
+  max-width: 110px;
+  animation: slideRight .5s linear;
+}
+nav .nav-item:hover span:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  animation: border-slide .5s linear;
+  border-bottom: 2px solid var(--p-393E46);
+}
+nav .nav-item.active span:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  animation: border-slide .5s linear;
+  border-bottom: 2px solid var(--p-00ADB5);
+}
+
+@keyframes border-slide{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight{
+  0%{
+    max-width: 0px;
+    opacity: 0; 
+  }
+  100%{
+    opacity: 1  ;
+    max-width: 110px;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(5%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
