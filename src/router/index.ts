@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import index from '../views/index.vue'
 
 const router = createRouter({
@@ -11,7 +10,7 @@ const router = createRouter({
       component: index
     },
     // {
-    //   path: '/about',
+    //   path: '/about',  
     //   name: 'about',
     //   // route level code-splitting
     //   // this generates a separate chunk (About.[hash].js) for this route
