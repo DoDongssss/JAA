@@ -28,27 +28,27 @@
             </div>
             <div class="abs-center h-auto w-[50%]" data-aos="fade-up"
             data-aos-anchor-placement="top-bottom">
-                <div class="relative w-[450px] border-2 border-[#00ADB5] p-7 rounded-xl">
+                <form action="https://formsubmit.co/d03ce6a44c77f9ac90fc78687c8bcd8d" method="POST" class="relative w-[450px] border-2 border-[#00ADB5] p-7 rounded-xl">
                     <div class="abs-center">
                         <h5 class="font-bold text-[1.5rem]">Lets connect together</h5>
                     </div>
                     <div class="flex flex-col mt-6">
                         <span  class="color-EEEEEE">Companay</span>
-                        <input type="text" placeholder="company name" class="h-[35px] rounded-md bg-c-EEEEEE px-2 py-1 color-393E46    ">
+                        <input type="text" name="company" placeholder="company name" class="h-[35px] rounded-md bg-c-EEEEEE px-2 py-1 color-393E46">
                     </div>
                     <div class="flex flex-col mt-6">
                         <span  class="color-EEEEEE">Your email</span>
-                        <input type="text" placeholder="email" class="h-[35px] rounded-md bg-c-EEEEEE px-2 py-1 color-393E46    ">
+                        <input type="text" name="email" placeholder="email" class="h-[35px] rounded-md bg-c-EEEEEE px-2 py-1 color-393E46" required>
                     </div>
                     <div class="flex flex-col mt-4">
                         <span class="color-EEEEEE">Message</span>   
-                        <textarea name="" id="" rows="10" class="h-[100px] rounded-md bg-c-EEEEEE"></textarea>
+                        <textarea name="message" id="" rows="10" class="h-[100px] rounded-md bg-c-EEEEEE color-393E46 p-2   " required></textarea>
                     </div>
-                    <button class="flex gap-2 bg-c-00ADB5 px-4 py-2 rounded-md mt-6 mx-auto">
+                    <button type="submit" class="flex gap-2 bg-c-00ADB5 px-4 py-2 rounded-md mt-6 mx-auto">
                         message me
                     </button>
                     <div class="absolute content-[''] h-full w-full inset-0  bg-c-00ADB5-trans-med skew-x-[-2deg] rounded-md z-[-1]"></div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
