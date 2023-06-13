@@ -40,8 +40,8 @@
                 </p>
                 <socials class="w-[80%]"/>
                 <div class="w-[80%] flex items-center justify-center lg:items-start lg:justify-start mt-7 z-20"> 
-                    <button type="button" class="mr-3 py-[10.5px] px-5 bg-c-00ADB5 rounded-[5px] tracking-wide text-white">Download CV</button>
-                    <button type="button" class="flex py-[10.5px] px-5 rounded-[5px] tracking-wide text-[#393E46] border border-[#00ADB5] ">
+                    <button type="button" class="mr-3 py-[10.5px] px-5 bg-c-00ADB5-trans-med rounded-[5px] tracking-wide text-white btn-download">Download CV</button>
+                    <button type="button" class="flex py-[10.5px] px-5 rounded-[5px] tracking-wide text-[#393E46] border border-[#00ADB5] btn-contact">
                         Contact Me
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right ml-1">
                             <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -129,6 +129,15 @@ export default defineComponent({
     border: 2px solid #00ADB5;
     transform: rotate3d(0, 1, 0,-25deg);
     animation: image-left-to-right  .7s linear;
+}
+.btn-download:hover{
+    background-color: var(--tertiary)!important;
+    transition: all .35s linear;
+}
+.btn-contact:hover{
+    background-color: rgba(0, 173, 181, .5)!important;
+    border-color: rgba(0, 173, 181, .5);
+    transition: all .35s linear;
 }
 
 </style> 
